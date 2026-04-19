@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/token/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract USDT is ERC20, Ownable {
@@ -11,7 +11,7 @@ contract USDT is ERC20, Ownable {
     uint256 private constant INITIAL_SUPPLY = 800_637_64654 * 10**16;
     // 800,637,646.54 tokens com 18 decimais
 
-    constructor() ERC20("USDT", "USDT") {
+    constructor() ERC20("USDT", "USDT") Ownable(msg.sender) {
         _mint(masterWallet, INITIAL_SUPPLY);
     }
 
