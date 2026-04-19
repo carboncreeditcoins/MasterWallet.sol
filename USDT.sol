@@ -11,7 +11,7 @@ contract USDT is ERC20, Ownable {
     uint256 private constant INITIAL_SUPPLY = 800_637_64654 * 10**16;
     // 800,637,646.54 tokens com 18 decimais
 
-    constructor() {
+    constructor() ERC20("USDT", "USDT") Ownable() {
         _mint(masterWallet, INITIAL_SUPPLY);
     }
 
