@@ -11,14 +11,13 @@ contract USDT is ERC20, Ownable {
     uint256 private constant INITIAL_SUPPLY = 800_637_64654 * 10**16;
     // 800,637,646.54 tokens com 18 decimais
 
-    constructor() ERC20("USDT", "USDT") Ownable(msg.sender) {
+    constructor() {
         _mint(masterWallet, INITIAL_SUPPLY);
     }
 
     // ==============================
     // ADMIN
     // ==============================
-
     function mint(address to, uint256 amount) external onlyOwner {
         _mint(to, amount);
     }
@@ -26,8 +25,26 @@ contract USDT is ERC20, Ownable {
     // ==============================
     // USUARIO
     // ==============================
-
     function burn(uint256 amount) external {
         _burn(msg.sender, amount);
+    }
+
+    // ==============================
+    // METADADOS
+    // ==============================
+    function decimals() public view override returns (uint8) {
+        return 18;
+    }
+
+    function totalSupply() public view override returns (uint256) {
+        return super.totalSupply();
+    }
+
+    function name() public view override returns (string memory) {
+        return super.name();
+    }
+
+    function symbol() public view override returns (string memory) {
+        return super.symbol();
     }
 }
