@@ -1,0 +1,234 @@
+
+{
+    "Id": 6366454,
+    "Nome": "Direito Administrativo",
+    "Cor": "#FF0000",
+    "Conteudos": [
+        {
+            "Id": 8952985,
+            "Nome": "Controle da Administração pública",
+            "Cor": "#FFD700"
+        },
+        {
+            "Id": 8952986,
+            "Nome": "Responsabilidade da Administração",
+            "Cor": "#dadada"
+        },
+        {
+            "Id": 8957621,
+            "Nome": "Retroativo",
+            "Cor": "#4F4F4F"
+        }
+    ],
+    "DuracaoTotalTexto": "3h",
+    "DuracaoTotal": 10800000,
+    "DuracaoRestante": 0,
+    "DuracaoRestanteTexto": null,
+    "Ordem": 0
+},
+{
+    "Id": 6368111,
+    "Nome": "Direito Constitucional",
+    "Cor": "#CD9B1D",
+    "Conteudos": [
+        {
+            "Id": 8956133,
+            "Nome": "Ordem social",
+            "Cor": "#FF69B4"
+        },
+        {
+            "Id": 8960437,
+            "Nome": "Retroativo",
+            "Cor": "#F4A460"
+        }
+    ],
+    "DuracaoTotalTexto": "3h 30m",
+    "DuracaoTotal": 12600000,
+    "DuracaoRestante": 0,
+    "DuracaoRestanteTexto": null,
+    "Ordem": 0
+},
+{
+    "Id": 6368654,
+    "Nome": "Direito Penal",
+    "Cor": "#32CD32",
+    "Conteudos": [
+        {
+            "Id": 8956962,
+            "Nome": "Crimes contra a Vida",
+            "Cor": "#EE2C2C"
+        },
+        {
+            "Id": 8957564,
+            "Nome": "Exercícios",
+            "Cor": "#AB82FF"
+        },
+        {
+            "Id": 8957562,
+            "Nome": "Resumo",
+            "Cor": "#6a3637"
+        },
+        {
+            "Id": 8960436,
+            "Nome": "Retroativo",
+            "Cor": "#ffbdb7"
+        },
+        {
+            "Id": 8957561,
+            "Nome": "Revisão",
+            "Cor": "#a7fca7"
+        }
+    ],
+    "DuracaoTotalTexto": "2h",
+    "DuracaoTotal": 7200000,
+    "DuracaoRestante": 0,
+    "DuracaoRestanteTexto": null,
+    "Ordem": 0
+},
+{
+    "Id": 6367244,
+    "Nome": "Direito Processual Penal",
+    "Cor": "#FFF68F",
+    "Conteudos": [
+        {
+            "Id": 8957559,
+            "Nome": "Exercícios",
+            "Cor": "#F4A460"
+        },
+        {
+            "Id": 8954627,
+            "Nome": "Prova",
+            "Cor": "#8B4513"
+        },
+        {
+            "Id": 8957558,
+            "Nome": "Resumo",
+            "Cor": "#4682B4"
+        },
+        {
+            "Id": 8960433,
+            "Nome": "Retroativo",
+            "Cor": "#CDCD00"
+        }
+    ],
+    "DuracaoTotalTexto": "1h 30m",
+    "DuracaoTotal": 5400000,
+    "DuracaoRestante": 0,
+    "DuracaoRestanteTexto": null,
+    "Ordem": 0
+},
+{
+    "Id": 6368996,
+    "Nome": "Informática",
+    "Cor": "#FF69B4",
+    "Conteudos": [
+        {
+            "Id": 8957566,
+            "Nome": "Email",
+            "Cor": "#FF69B4"
+        },
+        {
+            "Id": 8957567,
+            "Nome": "Exercícios",
+            "Cor": "#8DEEEE"
+        },
+        {
+            "Id": 8957568,
+            "Nome": "Resumo",
+            "Cor": "#00FFFF"
+        },
+        {
+            "Id": 8960432,
+            "Nome": "Retroativo",
+            "Cor": "#0000FF"
+        }
+    ],
+    "DuracaoTotalTexto": "45m",
+    "DuracaoTotal": 2700000,
+    "DuracaoRestante": 0,
+    "DuracaoRestanteTexto": null,
+    "Ordem": 0
+},
+{
+    "Id": 6369044,
+    "Nome": "Legislação Especial",
+    "Cor": "#EE0000",
+    "Conteudos": [
+        {
+            "Id": 8957622,
+            "Nome": "Retroativo",
+            "Cor": "#4876FF"
+        }
+    ],
+    "DuracaoTotalTexto": "0h 0m 0s",
+    "DuracaoTotal": 0,
+    "DuracaoRestante": 0,
+    "DuracaoRestanteTexto": null,
+    "Ordem": 0
+},
+{
+    "Id": 6369063,
+    "Nome": "Português",
+    "Cor": "#0000FF",
+    "Conteudos": [
+        {
+            "Id": 8957637,
+            "Nome": "Retroativo",
+            "Cor": "#228B22"
+        }
+    ],
+    "DuracaoTotalTexto": "2h",
+    "DuracaoTotal": 7200000,
+    "DuracaoRestante": 0,
+    "DuracaoRestanteTexto": null,
+    "Ordem": 0
+},
+{
+    "Id": 6369007,
+    "Nome": "Raciocínio Lógico",
+    "Cor": "#F4A460",
+    "Conteudos": [
+        {
+            "Id": 8957584,
+            "Nome": "Exercícios",
+            "Cor": "#b2b2b2"
+        },
+        {
+            "Id": 8957582,
+            "Nome": "Matemática",
+            "Cor": "#9be5ff"
+        },
+        {
+            "Id": 8957583,
+            "Nome": "Raciocínio Lógico",
+            "Cor": "#008B8B"
+        },
+        {
+            "Id": 8960431,
+            "Nome": "Retroativo",
+            "Cor": "#FF7F24"
+        }
+    ],
+    "DuracaoTotalTexto": "1h",
+    "DuracaoTotal": 3600000,
+    "DuracaoRestante": 0,
+    "DuracaoRestanteTexto": null,
+    "Ordem": 0
+},
+{
+    "Id": 6370590,
+    "Nome": "Redação",
+    "Cor": "#F4A460",
+    "Conteudos": [
+        {
+            "Id": 8960429,
+            "Nome": "Retroativo",
+            "Cor": "#008B8B"
+        }
+    ],
+    "DuracaoTotalTexto": "0h 0m 0s",
+    "DuracaoTotal": 0,
+    "DuracaoRestante": 0,
+    "DuracaoRestanteTexto": null,
+    "Ordem": 0
+}
